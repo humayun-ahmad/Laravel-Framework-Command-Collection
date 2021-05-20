@@ -13,3 +13,8 @@ laravel new blog
 ```
 composer create-project --prefer-dist laravel/laravel:^7.0 blog
 ```
+
+## Running Laravel Application:
+```
+php artisan serve
+```
