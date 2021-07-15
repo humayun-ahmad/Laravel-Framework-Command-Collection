@@ -30,10 +30,19 @@ php artisan config:cache
 php artisan config:clear
 ```
 
-# Toastr for Laravel
+### Toastr for Laravel
 
 Toaster link:: https://github.com/brian2694/laravel-toastr
 
+### View Composers
+```
+View::composer('layouts.frontend.partial.footer', function ($view){
+     $categories = App\Category::all();
+     $view->with('categories', $categories);
+});
+``` 
+*Reference by programming kit 36 no. video lecture*
 
-## Less secure apps will be turned on if you [click here](https://www.google.com/settings/security/lesssecureapps)
+
+### Less secure apps will be turned on if you [click here](https://www.google.com/settings/security/lesssecureapps)
 
