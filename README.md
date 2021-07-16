@@ -43,6 +43,8 @@ View::composer('layouts.frontend.partial.footer', function ($view){
 ``` 
 *Reference by programming kit 36 no. video lecture*
 
+### For Search System in laravel:
+     1. Algolia (vue.js)
 
 ### Less secure apps will be turned on if you [click here](https://www.google.com/settings/security/lesssecureapps)
 
