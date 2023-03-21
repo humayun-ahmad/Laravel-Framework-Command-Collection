@@ -53,6 +53,9 @@ View::composer('layouts.frontend.partial.footer', function ($view){
 sudo apt-get install php-xml
 ```
 
+### Mysql install in linux [click here](https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-20-04)
+
+
 
 
 ### Less secure apps will be turned on if you [click here](https://www.google.com/settings/security/lesssecureapps)
